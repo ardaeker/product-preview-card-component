@@ -4,11 +4,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [Author](#author)
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [Author](#author)
 
 ## Overview
 
@@ -21,14 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot-desktop.png)
+![](./src/images/screenshots/screenshot-desktop.png)
 
-![](./images/screenshot-mobile.png)
+![](./src/images/screenshots/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-FjVK3oeQg_)
-- Live Site URL: [Live site URL here](https://ardaekerforntendmentor-01.netlify.app/)
+- Solution URL: [Solution URL here]()
+- Live Site URL: [Live site URL here](https://ardaekerfrontendmentor-01.netlify.app/)
 
 ## Author
 
