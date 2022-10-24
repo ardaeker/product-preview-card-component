@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here]()
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-vO_MKINpzz)
 - Live Site URL: [Live site URL here](https://ardaekerfrontendmentor-01.netlify.app/)
 
 ## Author
