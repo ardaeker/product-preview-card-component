@@ -1,0 +1,381 @@
+/*
+  ===================
+    Table Of Contents
+  ===================
+      -  Google Fonts
+      1. Reset (minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css)
+      2. Custom Properties And Utility
+      3. Global Styles
+      4. Typography
+      5. Layout
+      6. Components
+        6.1 Buttons
+        6.2 Footer
+      7. Media Queries
+*/
+
+/*
+  ================
+    - Google Fonts
+  ================
+      font-family: 'Fraunces', serif;
+      font-family: 'Montserrat', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+/*
+  ==========
+    1. Reset
+  ==========
+*/
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+ul {
+  list-style: none
+}
+
+button,
+input,
+select {
+  margin: 0
+}
+
+html {
+  box-sizing: border-box
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%
+}
+
+iframe {
+  border: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+td,
+th {
+  padding: 0
+}
+
+/*
+  ==================================
+    2. Custom Properties And Utility
+  ==================================
+*/
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --very-dark-cyan: hsl(158, 36%, 15%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.offscreen {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/*
+  ==================
+    3. Global Styles
+  ==================
+*/
+
+body {
+  min-height: 100vh;
+  font-size: 0.875rem;
+
+  background-color: var(--cream);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+  ===============
+    4. Typography
+  ===============
+*/
+.product-title,
+.discount-price {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-category-title,
+.product-detail,
+.without-discount-price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.product-title {
+  line-height: 1;
+  color: var(--very-dark-blue);
+}
+
+.product-category-title,
+.product-detail {
+  color: var(--dark-grayish-blue);
+}
+
+.product-detail {
+  line-height: 1.5;
+}
+
+.product-category-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.313rem;
+}
+
+.discount-price {
+  color: var(--dark-cyan);
+}
+
+.without-discount-price {
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+
+.add-to-cart {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--white);
+}
+
+/*
+  ===========
+    5. Layout
+  ===========
+*/
+
+.card {
+  display: grid;
+  grid-template-columns: 21.563rem;
+  grid-template-rows: 15.125rem 23.188rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-image: url('../images/image-product-mobile.jpg');
+  filter: brightness(0.95);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-content {
+  background-color: var(--white);
+  padding-left: 1.688rem;
+  padding-top: 1.813rem;
+  padding-bottom: 1.625rem;
+  padding-right: 1.365rem;
+}
+
+.product-category-title {
+  margin-bottom: 0.313rem;
+}
+
+.product-title {
+  margin-bottom: 0.75rem;
+}
+
+.product-detail {
+  margin-bottom: 0.85rem;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/*
+  ===============
+    6. Components
+  ===============
+      6.1 Buttons
+*/
+
+.add-to-cart {
+  min-width: 18.5rem;
+  min-height: 3.125rem;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--dark-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.add-to-cart:focus {
+  outline: none;
+}
+
+.add-to-cart:hover,
+.add-to-cart:focus {
+  background-color: var(--very-dark-cyan);
+  cursor: pointer;
+}
+
+/*
+  ===============
+    6. Components
+  ===============
+      6.2 Footer
+*/
+
+footer {
+  display: none;
+}
+
+/*
+  ==================
+    7. Media Queries
+  ==================
+*/
+
+@media screen and (min-width: 36em) {
+  /*
+  ===================
+    Media Layout 36em
+  ===================
+  */
+
+  .card {
+    grid-template-columns: 301px 301px;
+    grid-template-rows: 452px;
+
+  }
+
+  .card-header {
+    background-image: url('../images/image-product-desktop.jpg');
+  }
+
+  .card-content {
+    padding-right: 33px;
+  }
+
+  .product-category-title {
+    margin-bottom: 0.625rem;
+  }
+
+  .product-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-detail {
+    margin-bottom: 1.65rem;
+  }
+
+  .product-price {
+    margin-bottom: 2rem;
+  }
+
+  /*
+  =======================
+    Media Components 36em
+  =======================
+      Media Buttons 36em
+  */
+
+  .add-to-cart {
+    min-width: 238px;
+  }
+
+  /*
+  =======================
+    Media Components 36em
+  =======================
+      Media Footer 36em
+  */
+
+  footer {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    transition: 0.5s ease;
+  }
+
+  footer p a {
+    color: #3C4048;
+    transition: 0.2s ease;
+  }
+
+  footer a:focus {
+    outline: none;
+  }
+
+  footer a:hover,
+  footer a:focus {
+    color: #F96666;
+    text-decoration-color: transparent;
+  }
+}
