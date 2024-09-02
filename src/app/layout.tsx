@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   title: "Arda Eker - Product Preview Card Component",
   description:
     "This is a solution to the Product Preview Card Component challenge on Frontend Mentor. It's built with Tailwind CSS and NextJS. Made with ❤️ by Arda Eker.",
+  metadataBase: new URL(
+    "https://fm-2024-product-preview-card-component.vercel.app/",
+  ),
   openGraph: {
     title: "Arda Eker - Product Preview Card Component",
     description:
