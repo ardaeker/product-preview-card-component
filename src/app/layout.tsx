@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
-    canonical: "fm-2024-product-preview-card-component.vercel.app/",
+    canonical: "/",
   },
 };
 
