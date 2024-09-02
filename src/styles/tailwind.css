@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Colors */
+    --color-white: hsla(0, 0%, 100%, 1);
+    --color-cream: hsla(28, 38%, 92%, 1);
+    --color-gunmetal: hsla(212, 21%, 14%, 1);
+    --color-dark-aquamarine: hsla(157, 43%, 18%, 1);
+    --color-light-aquamarine: hsla(157, 36%, 37%, 1);
+    --color-aurometal-saurus: hsla(228, 12%, 48%, 1);
+
+    /* Maximum width for product card element */
+    --card-max-width: 343px;
+
+    /* Border radius for product card element */
+    --card-border-radius: 0.625rem;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-cream);
+  }
+
+  @media (min-width: 640px) {
+    :root {
+      /* Maximum width for product card element on larger screens */
+      --card-max-width: 600px;
+    }
+  }
+}
+
+@layer utilities {
+  /* 
+    Utility class to set a minimum height of 100% of the viewport height.
+    This is for which browsers that do not support the `100svh` unit.
+  */
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+}
