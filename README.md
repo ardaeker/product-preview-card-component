@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution: [Frontend Mentor Page](https://www.frontendmentor.io/solutions/product-preview-card-component-t-VCznG1Oy)
-- Live Preview: [Deployed on Vercel](https://your-live-site-url.com)
+- Live Preview: [Deployed on Vercel](https://fm-2024-product-preview-card-component.vercel.app)
 
 ## My process
 
