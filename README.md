@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor ↗](https://your-solution-url.com)
-- Live Site URL: [Open on Vercel ↗](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor ↗](https://www.frontendmentor.io/solutions/product-preview-card-component-zZCaHSUuRU)
+- Live Site URL: [Open on Vercel ↗](https://product-preview-card-component-ten-sepia.vercel.app)
 
 ## Built with
 
