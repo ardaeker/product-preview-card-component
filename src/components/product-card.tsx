@@ -75,14 +75,14 @@ export function ProductCard({
         images={images}
         className="h-60 w-full sm:h-full"
       />
-      <div className="bg-white p-6 sm:p-8">
+      <div className="bg-white p-6 sm:p-8 sm:pt-[1.5938rem]">
         <span className="text-xs font-medium uppercase tracking-[5px]">
           {category}
         </span>
-        <h1 className="font-fraunces mt-3 text-[2rem] font-bold leading-8 text-[#1C232B] sm:mt-5">
+        <h1 className="mt-3 font-fraunces text-[2rem] font-bold leading-8 text-[#1C232B] sm:mt-[1.0938rem]">
           {title}
         </h1>
-        <p className="font-montserrat mt-4 text-sm font-medium leading-[1.4375rem] sm:mt-6">
+        <p className="mt-4 font-montserrat text-sm font-medium leading-[1.4375rem] sm:mt-6">
           {description}
         </p>
 
@@ -94,11 +94,11 @@ export function ProductCard({
           </span>
           <div aria-hidden className="flex items-center gap-x-[1.1875rem]">
             <span className="font-fraunces text-[2rem] font-bold leading-8 text-[#3D8168]">
-              {price.current}
+              ${price.current}
             </span>
             {price.original && (
               <span className="font-montserrat text-[.8125rem] font-medium leading-[1.4375rem] line-through">
-                {price.original}
+                ${price.original}
               </span>
             )}
           </div>
