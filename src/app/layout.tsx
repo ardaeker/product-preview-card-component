@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Frontend Mentor - Product preview card component',
+  title: 'Arda Eker - Product preview card component',
   description:
     'This website is a solution for the Product preview card component challenge on Frontend Mentor. It is built with Next.js and Tailwind CSS. Coded by Arda Eker.',
   authors: {
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     'https://product-preview-card-component-ten-sepia.vercel.app/',
   ),
   openGraph: {
-    title: 'Frontend Mentor - Product preview card component',
+    title: 'Arda Eker - Product preview card component',
     description:
-      'This website is a solution to the Product preview card component challenge on Frontend Mentor. It is built with Next.js, Tailwind CSS, and TypeScript. Coded by Arda Eker.',
+      'A fully tested, SEO-optimized product preview card with mobile-friendly design.',
     siteName: 'Frontend Mentor - Product preview card component',
     images: [
       {
