@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Arda Eker - Product preview card component',
   description:
-    'This website is a solution for the Product preview card component challenge on Frontend Mentor. It is built with Next.js and Tailwind CSS. Coded by Arda Eker.',
+    'A fully tested, SEO-optimized product preview card with mobile-friendly design.',
   authors: {
     name: 'Arda Eker',
     url: 'https://github.com/ardaeker',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Arda Eker - Product preview card component',
     description:
       'A fully tested, SEO-optimized product preview card with mobile-friendly design.',
-    siteName: 'Frontend Mentor - Product preview card component',
+    siteName: 'Arda Eker - Product preview card component',
     images: [
       {
         url: 'open-graph-image.png',
@@ -53,9 +53,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://product-preview-card-component-ten-sepia.vercel.app',
-  },
-  icons: {
-    icon: '/favicon.png',
   },
 };
 
